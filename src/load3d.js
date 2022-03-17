@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
@@ -71,14 +73,6 @@ function init(input) {
             gltf.scene.translateY(-1.0);
             
             scene.add(gltf.scene);
-            
-            let box = new THREE.Box3().setFromObject(gltf.scene);
-            let boxSize = box.getSize(new THREE.Vector3()).length();
-            let boxCenter = box.getCenter(new THREE.Vector3());
-            
-            // controls.maxDistance = boxSize * 10;
-            // controls.target.copy(boxCenter);
-            // controls.update();
         });
     }
     
