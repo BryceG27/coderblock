@@ -9,7 +9,8 @@ Vi è un piccolo ma fastidioso bug per il controllo della <i>scene</i>: <br>
 
 ### How to make it work
 
-Dopo la clonazione del progetto, l'unica cosa da installare è il pacchetto di node_modules tramite il comando <i>npm install</i>.
+- Dopo la clonazione del progetto, l'unica cosa da installare è il pacchetto di node_modules tramite il comando <i>npm install</i>.
+- Il file HTML è contenuto dentro la cartella <i>dist</i>.
 
 ### What did I use
 
