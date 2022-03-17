@@ -1,7 +1,10 @@
-
 html, body {
     margin: 0;
     height: 100%;
+}
+
+.presentation {
+    background-color: rgba(9, 87, 160, 0.664);
 }
 
 #c{

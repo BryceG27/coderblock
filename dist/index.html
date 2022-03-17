@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="../src/app.css">
     <title>Document</title>
 </head>
-<body>
-
+<body class="presentation">
+    
     <div class="container">
         <div class="row" id="inputRow">
-            <div class="col-4 py-3 input-group">
-                <input type="text" class="form-control" id="input" placeholder="Diamo un nome alla nobile" aria-label="Recipient's username" aria-describedby="button">
-                <button class="btn btn-outline-danger" type="button" id="button">Invia</button>
+            <div class="col-md-8 offset-2 mx-auto py-5 my-5">
+                <h1 class="text-center">Ciao e benvenuto!</h1>
+                <h3 class="py-2">
+                    Prima di far vedere il risultato finale, dobbiamo ricordare alla nobile il suo nome!<br>
+                </h3>
+                <h3>
+                    Qui in basso hai un campo di input in cui potrai dire alla cara nobile il suo nome e aiutarla
+                </h3>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="input" placeholder="Diamo un nome alla nobile" aria-label="Recipient's username" aria-describedby="button">
+                    <button class="btn btn-danger" type="button" id="button">Invia</button>
+                </div>
             </div>
         </div>
         <div class="row py-3">
@@ -22,9 +31,7 @@
             </div>
         </div>
     </div>
-
-    <div id="root"></div>
-
+    
     <script src="./app.js"></script>
 </body>
 </html>

@@ -9,9 +9,9 @@ const row = document.getElementById('inputRow');
 function giveName() {
     const input = document.getElementById('input').value;
     row.classList.add('visually-hidden');
+    document.body.classList.remove('presentation');
     
     init(input);
-
 }
 
 function init(input) {
@@ -76,9 +76,9 @@ function init(input) {
             let boxSize = box.getSize(new THREE.Vector3()).length();
             let boxCenter = box.getCenter(new THREE.Vector3());
             
-            controls.maxDistance = boxSize * 10;
-            controls.target.copy(boxCenter);
-            controls.update();
+            // controls.maxDistance = boxSize * 10;
+            // controls.target.copy(boxCenter);
+            // controls.update();
         });
     }
     
