@@ -5,7 +5,7 @@ Realizzare una scena 3D che consenta di visualizzare due modelli (contenuti nell
 ## The bug
 
 Vi è un piccolo ma fastidioso bug per il controllo della <i>scene</i>: <br>
-    - Il controllo è in basso a sinistra. Solo da quel punto è possibile fare il pinch-in e il pinch-out oltre che a muovere la scena.
+    - Il controllo è in basso a sinistra. Solo da quel punto è possibile fare lo zoom-in e lo zoom-out oltre che a muovere la scena.
 
 ### How to make it work
 
